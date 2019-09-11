@@ -16,5 +16,9 @@ FROM foo;
 -- Insert data into the table
 INSERT INTO foo (foo_name, foo_true, foo_type, bar_name, bar_amt)
 VALUES ('Philip', true, 'developer', 'Penrose', 1),
-  ('Mishka', true, 'dog', 'DS', 5);
+  ('Mishka', true, 'dog', 'DS', 5); 
+
   
+-- Query only the `foo_name` field
+SELECT foo_name
+FROM foo;
