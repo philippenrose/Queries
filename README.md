@@ -1,2 +1,2 @@
 # Queries
-SQL Queries I know and (usually) love
+SQL queries I know and (usually) love
